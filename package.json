@@ -1,5 +1,12 @@
 {
+  "name": "roblox-relay-server",
+  "version": "1.0.0",
+  "description": "A simple relay server for Roblox to fetch external API data",
+  "main": "server.js",
   "dependencies": {
     "node-fetch": "^2.7.0"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
 }
