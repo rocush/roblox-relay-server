@@ -1,6 +1,6 @@
 const http = require('http')
 const fetch = require('node-fetch')
-const port = 3000
+const port = process.env.PORT || 3000
 const urlModule = require('url')
 
 const server = http.createServer(async function(req, res) {
